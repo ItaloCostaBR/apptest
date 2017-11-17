@@ -6,6 +6,8 @@ page-feed {
       text-align: center;
     }
     img{
+      -webkit-filter: blur(1px); /* Safari */
+      filter: blur(1px);
     }
     .card-title {
       position: absolute;
@@ -18,8 +20,9 @@ page-feed {
 
     .card-subtitle {
       font-size: 1.0em;
+      text-transform: uppercase;
       position: absolute;
-      top: 55%;
+      top: 56%;
       width: 100%;
       color: #fff;
     }
